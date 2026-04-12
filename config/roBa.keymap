@@ -19,6 +19,7 @@
             <&kp LEFT_ARROW>,
             <&kp UP_ARROW>,
             <&kp DOWN_ARROW>;
+
         tick = <10>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -82,7 +83,7 @@
             bindings = <
 &kp Q                 &kp W      &kp E      &kp R                       &kp T                                                                    &kp Y      &kp U  &kp I      &kp O    &kp P
 &kp A                 &kp S      &kp D      &kp F                       &kp G                       &kp LS(LG(S))               &kp MINUS        &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z                 &kp X      &kp C      &kp V                       &kp B                       &kp ESCAPE                  &kp EQUAL        &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Z                 &kp X      &kp C      &kp V                       &kp B                       &lt 3 ESCAPE                &kp EQUAL        &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &mt LEFT_SHIFT TILDE  &kp GRAVE  &kp TILDE  &mt LG(LEFT_COMMAND) LANG1  &mt LC(LEFT_CONTROL) SPACE  &lt_to_layer_0 1 LANG2      &lt 2 BACKSPACE  &kp ENTER                             &kp DEL
             >;
 
@@ -109,10 +110,10 @@
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
-        FUNCTION {
+        BLUETOOTH {
             bindings = <
-&trans  &trans          &trans          &kp PAGE_UP      &trans                         &kp F1  &kp F2          &kp F3          &kp F4           &kp F5
-&trans  &trans          &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME  &trans      &kp F13  &kp F6  &kp F7          &kp UP_ARROW    &kp F9           &kp F10
+&trans  &trans          &trans          &kp PAGE_UP      &trans                         &kp F1  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &kp F5
+&trans  &trans          &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME  &trans      &kp F13  &kp F6  &bt BT_SEL 3    &kp UP_ARROW    &kp F9           &kp F10
 &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END   &trans      &trans   &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F11
 &trans  &trans          &trans          &trans           &trans    &trans      &trans   &trans                                                   &kp F12
             >;
