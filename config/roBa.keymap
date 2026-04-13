@@ -52,7 +52,7 @@
 
         LeftClick {
             bindings = <&mkp MB1>;
-            key-positions = <19 20>;
+            key-positions = <17 18>;
         };
     };
 
