@@ -47,12 +47,12 @@
 
         RightClick {
             bindings = <&mkp MB2>;
-            key-positions = <18 19>;
+            key-positions = <19 20>;
         };
 
         LeftClick {
             bindings = <&mkp MB1>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
         };
     };
 
@@ -81,10 +81,10 @@
 
         default_layer {
             bindings = <
-&kp Q                    &kp W      &kp E      &kp R                       &kp T                                                                    &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A                    &kp S      &kp D      &kp F                       &kp G                       &kp LS(LG(S))               &kp MINUS        &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z                    &kp X      &kp C      &kp V                       &kp B                       &lt 3 ESCAPE                &kp EQUAL        &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&mt LEFT_SHIFT ASTERISK  &kp GRAVE  &kp TILDE  &mt LG(LEFT_COMMAND) LANG1  &mt LC(LEFT_CONTROL) SPACE  &lt_to_layer_0 1 LANG2      &lt 2 BACKSPACE  &kp ENTER                             &kp DEL
+&kp Q                    &kp W      &kp E      &kp R                           &kp T                                                                  &kp Y            &kp U  &kp I      &kp O    &kp P
+&kp A                    &kp S      &kp D      &kp F                           &kp G                           &kp LS(LG(S))               &kp MINUS  &kp H            &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z                    &kp X      &kp C      &kp V                           &kp B                           &lt 3 ESCAPE                &kp EQUAL  &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&mt LEFT_SHIFT ASTERISK  &kp GRAVE  &kp TILDE  &mt LG(LA(LEFT_CONTROL)) LANG1  &mt LC(LG(LEFT_COMMAND)) SPACE  &lt_to_layer_0 1 LANG2      &kp ENTER  &lt 2 BACKSPACE                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
