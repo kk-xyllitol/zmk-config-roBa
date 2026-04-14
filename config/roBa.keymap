@@ -87,7 +87,7 @@
 &mt LEFT_SHIFT ASTERISK  &kp GRAVE  &kp TILDE  &mt LG(LA(LEFT_CONTROL)) LANG1  &mt LC(LG(LEFT_COMMAND)) SPACE  &lt_to_layer_0 1 LANG2      &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
         };
 
         NUM {
