@@ -105,7 +105,7 @@
             bindings = <
 &kp SQT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp LEFT_PARENTHESIS                                       &kp RIGHT_PARENTHESIS  &none     &none         &none      &trans
 &kp GRAVE      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp LEFT_BRACKET      &kp LC(LA(KP_NUMBER_0))      &trans  &kp RIGHT_BRACKET      &none     &kp UP_ARROW  &none      &trans
-&kp BACKSLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp LEFT_BRACE        &tog 1                       &trans  &kp RIGHT_BRACE        &kp LEFT  &kp DOWN      &kp RIGHT  &trans
+&kp BACKSLASH  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp LEFT_BRACE        &tog 0                       &trans  &kp RIGHT_BRACE        &kp LEFT  &kp DOWN      &kp RIGHT  &trans
 &trans         &kp NUMBER_0  &trans        &kp LANGUAGE_2  &trans                &trans                       &trans  &trans                                                    &trans
             >;
         };
